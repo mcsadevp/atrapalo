@@ -4,8 +4,8 @@
       src="./assets/logo.png"
       alt="pokemon"
     />
-    <h1>¿Quién es ese Pokemón?</h1>
-    <h5>Pokémons Atrapados:<img class="poke-bola"  v-for=" n in countGuessed " :key="n" src="./assets/poke-bola.png" alt=""></h5>
+    <h1>¿Quién es ese Pokémon?</h1>
+    <h5>Atrapados:<img class="poke-bola"  v-for=" n in countGuessed " :key="n" src="./assets/poke-bola.png" alt=""></h5>
     
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
